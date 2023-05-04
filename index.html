@@ -4,34 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo-List Impérative</title>
+    <title>Todo-List</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Todo-List</h1>
+    <!-- Ma div #app sera remplie entièrement par JS de manière dynamique -->
+    <div id="app"></div>
 
-    <ul class="tasks">
-        <li class="task">
-            Arroser le chien
-            <button class="delete-button">x</button>
-        </li>
-        <li class="task">
-            Sortir la voiture
-            <button class="delete-button">x</button>
-        </li>
-        <li class="task">
-            Laver les plantes
-            <button class="delete-button">x</button>
-        </li>
-    </ul>
-
-    <p>Nombre de tâches terminées : 2</p>
-
-    <form id="new-task-form">
-        <input name="new-task" type="text" placeholder="Ajouter une tâche...">
-    </form>
-
+    <!-- Le fichier script.js contient toute notre application -->
     <script src="script.js"></script>
 </body>
 </html>
